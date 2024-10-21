@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style> 
+                .top{
+                    float: left;
+                    width: 20%;
+                    height:600px;
+                    background-color: #e2f2ad;
+                    }
+                    .bottom{
+                            background-color: #aae1f6;
+                    }
+                    a{
+                        display: flex;
+                        text-decoration: none;
+                        margin: 20px 10px;
+                        background-color: #eae483;
+                        padding: 8px;
+                        border-radius: 8px;
+                        justify-content: center;
+                        font-size: medium;
+                        font-weight: 600;
+                    }
+                    a:hover{
+                        background-color: #9cfc88;
+                    }
+    </style>
+</head>
+<body>
+      <div class="top"> 
+            <a href="css.html" target="name">css</a>
+            <a href="form.html" target="name">form</a>
+            <a href="table.html" target="name">table</a>
+      </div>
+      <div class="bottom"> 
+            <iframe style="width: 70%; height: 600px;" src="css.html" frameborder="0" name="name"></iframe>
+      </div>
+</body>
+</html>
